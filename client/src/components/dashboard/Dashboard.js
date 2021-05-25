@@ -16,7 +16,7 @@ const Dashboard = ({getCurrentProfile, auth: {user}, profile: {profile, loading}
         getCurrentProfile();
     }, [getCurrentProfile])
 
-    return loading === null || profile === undefined ? ( <Spinner /> 
+    return  profile === null || user === undefined ? ( <Spinner /> 
     ): (
     <Fragment>
         <h1 className = "large text-primary">Dashboard</h1>
