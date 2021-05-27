@@ -1,6 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://Maru:lampara222@devconector.qaisx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret": "mySecretT0ken",
-    "githubClientId": "be370f91d18da1b22e36",
-    "githubSecret": "fd70e1222cce41ee77c0aa285e7da85b900a735d"
+    "mongoURI": "mongodb+srv://<username>:<password>@devconector.qaisx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "<jwtSecret>",
+    "githubClientId": "<githubClientId>",
+    "githubSecret": "<gitHubSecret>"
 }
